@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAKE SHOP</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"> 
+    <!-- Custom CSS -->
+    <style>
+        .hero
+         {
+            background: url('https://via.placeholder.com/1920x600?text=Delicious+Cakes') no-repeat center center;
+            background-size: cover;
+            color: black;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background-color:aqua ;
+        }
+        .hero h1
+         {
+            font-size: 4rem;
+            font-weight: bold;
+        }
+        .card img
+         {
+            max-height: 200px;
+            object-fit: cover;
+        }
+        .footer 
+        {
+            background-color:goldenrod;
+            padding: 20px 0;
+        }
+        .navbar
+         {
+            display: flex;
+            justify-content: center;
+            background-color: greenyellow;
+            width: 100%;
+            padding: 10px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .navbar ul
+         {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .navbar li
+         {
+            margin: 0 10px;
+        }
+
+        .navbar a
+         {
+            display: flex;
+            align-items: center;
+            color: aquamarine;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            background-color: white;
+        }
+
+        .navbar a img 
+        {
+            margin-right: 8px;
+        }
+
+        .navbar a:hover:not(.active)
+         {
+            background-color:pink ;
+        }
+
+        
+body 
+{
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+footer 
+{
+    background-color:pink;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer-icons .icon
+ {
+    color: wheat;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.footer-icons .icon:hover
+ {
+    color:blanchedalmond;
+}
+
+    </style>
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><img src="img/icon1.png" alt="Home Icon" width="20" height="20">CAKE SHOP</a>
+            <br>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <br>
+            <b>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html"><img src="img/icon1.png" alt="Home Icon" width="20" height="20">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="abb.html"><img src="img/icon2.png" alt="Home Icon" width="20" height="20">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="creativee.html"><img src="img/crea.png" alt="Home Icon" width="20" height="20">CREATIVE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html"><img src="img/icon3.png" alt="Home Icon" width="20" height="20">CONTACT</a>
+                    </li>
+                    <li class="nav-item"></li>
+                        <a class="nav-link" href="login.html"><img src="img/icon4.png" alt="Home Icon" width="20" height="20">LOGIN</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </b>
+    </header>
+
+  <!-- Products Section -->
+    <section class="container my-5">
+        <center>
+        <h2>CREATIVES CAKES</h2>
+    </center>
+    <br>
+
+
+        <div class="row">
+            
+            <!-- Product Card 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card cake-card">
+                    <img src="img/t1.jpg" class="card-img-top" alt="Cake 1" >
+                    <div class="card-body">
+                        <B>
+                    <center>
+                        <h5 class="card-title">TCS CT 001</h5>
+                       <p class="card-text">Preparation days:1</p>
+                        <p>Creative cakes</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </center>
+                    </B>
+                    </div>
+                </div>
+            </div>
+            <!-- Product Card 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card cake-card">
+                    <img src="img/t2.jpg" class="card-img-top" alt="Cake 2">
+                    <div class="card-body">
+                        <b>
+                        <center>
+                        <h5 class="card-title">TCS CT 002</h5>
+                        <p class="card-text"> Preparation days:1</p>
+                        <P>Angry Bird</P>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                        </center>
+                    </b>
+                    </div>
+                </div>
+            </div>
+            <!-- Product Card 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card cake-card">
+                    <img src="img/t3.jpg" class="card-img-top" alt="Cake 3">
+                    <div class="card-body">
+                        <b>
+                       <center>
+                        <h5 class="card-title">TCS CT 003</h5>
+                        <p class="card-text"> Preparation days:1</p>
+                        <p>Mimion</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                        <b>
+                            <center>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+
+
+
+ <!-- Products Section -->
+ <section class="container my-5">
+    <div class="row">
+        <!-- Product Card 1 -->
+        <div class="col-md-4 mb-4">
+            <div class="card cake-card">
+                <img src="img/toy4.jpg" class="card-img-top" alt="Cake 1">
+                <div class="card-body">
+                    <b>
+                        <center>
+                    <h5 class="card-title">TCS CT 004</h5>
+                    <p class="card-text">Preparation days:1</p>
+                    <P>Minions</P>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                    </center>
+                    </b>
+                </div>
+            </div>
+        </div>
+        <!-- Product Card 2 -->
+        <div class="col-md-4 mb-4">
+            <div class="card cake-card">
+                <img src="img/toy5.jpg" class="card-img-top" alt="Cake 2">
+                <div class="card-body">
+                    <b>
+                        <center>
+                    <h5 class="card-title"> TCS CT 005</h5>
+                    <p class="card-text">Preparation days:1</p>
+                    <p>Emiraa</p>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                    </center>
+                    </b>
+                </div>
+            </div>
+        </div>
+        <!-- Product Card 3 -->
+        <div class="col-md-4 mb-4">
+            <div class="card cake-card">
+                <img src="img/toy6.jpg" class="card-img-top" alt="Cake 3">
+                <div class="card-body">
+                    <b>
+                        <center>
+                    <h5 class="card-title"> TCS CT 006</h5>
+                    <p class="card-text">Preparation days:1</p>
+                    <P>Toy chaco</P>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                    </center>
+                    </b>
+
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+
+ <!-- Products Section -->
+ <section class="container my-5">
+    <div class="row">
+        <!-- Product Card 1 -->
+        <div class="col-md-4 mb-4">
+            <div class="card cake-card">
+                <img src="img/toy7.jpg" class="card-img-top" alt="Cake 1">
+                <div class="card-body">
+                    <b>
+                        <center>
+                    <h5 class="card-title"> TCS CT 007</h5>
+                    <p class="card-text">Preparation days:1</p>
+                    <P>Train Toy</P>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                    </center>
+                    </b>
+                </div>
+            </div>
+        </div>
+        <!-- Product Card 2 -->
+        <div class="col-md-4 mb-4">
+            <div class="card cake-card">
+                <img src="img/toy8.jpg" class="card-img-top" alt="Cake 2">
+                <div class="card-body">
+                    <b>
+                        <center>
+                    <h5 class="card-title">TCS CT 007</h5>
+                    <p class="card-text">Preparation days:1</p>
+                    <p>Michacal</p>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                    </center>
+                    </b>
+                </div>
+            </div>
+        </div>
+        <!-- Product Card 3 -->
+        <div class="col-md-4 mb-4">
+            <div class="card cake-card">
+                <img src="img/toy9.jpg" class="card-img-top" alt="Cake 3">
+                <div class="card-body">
+                    <b>
+                        <center>
+                    <h5 class="card-title">TCS CT 008</h5>
+                    <p class="card-text">Preparation days:1</p>
+                    <P>Mini Cakes</P>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                    </center>
+                    </b>
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+
+  <!-- Products Section -->
+  <section class="container my-5">
+    <div class="row">
+        <!-- Product Card 1 -->
+        <div class="col-md-4 mb-4">
+            <div class="card cake-card">
+                <img src="img/toy10.jpg" class="card-img-top" alt="Cake 1">
+                <div class="card-body">
+                    <b>
+                        <center>
+                    <h5 class="card-title">TCS CT 009</h5>
+                    <p class="card-text">Preparation days:1</p>
+                    <p>Miki mouse</p>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                    </center>
+                    </b>
+                </div>
+            </div>
+        </div>
+        <!-- Product Card 2 -->
+        <div class="col-md-4 mb-4">
+            <div class="card cake-card">
+                <img src="img/toy11.jpg" class="card-img-top" alt="Cake 2">
+                <div class="card-body">
+                    <b>
+                        <center>
+                    <h5 class="card-title">TCS CT 010</h5>
+                    <p class="card-text">Preparation days:1</p>
+                    <P>Mouse</P>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                    </center>
+                    </b>
+                </div>
+            </div>
+        </div>
+        <!-- Product Card 3 -->
+        <div class="col-md-4 mb-4">
+            <div class="card cake-card">
+                <img src="img/toy12.jpg" class="card-img-top" alt="Cake 3">
+                <div class="card-body">
+                    <b>
+                        <center>
+                    <h5 class="card-title">TCS CT 011</h5>
+                    <p class="card-text">Preparation days:1</p>
+                    <p>Mini com</p>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                    </center>
+                    </b>
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+
+  <!-- Products Section -->
+  <section class="container my-5">
+    <div class="row">
+        <!-- Product Card 1 -->
+        <div class="col-md-4 mb-4">
+            <div class="card cake-card">
+                <img src="img/toy13.jpg" class="card-img-top" alt="Cake 1">
+                <div class="card-body">
+                    <b>
+                        <center>
+                    <h5 class="card-title">TCS CT 012</h5>
+                    <p class="card-text">Preparation days:1</p>
+                    <P>Lion toy</P>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                    </center>
+                    </b>
+                </div>
+            </div>
+        </div>
+        <!-- Product Card 2 -->
+        <div class="col-md-4 mb-4">
+            <div class="card cake-card">
+                <img src="img/toy14.jpg" class="card-img-top" alt="Cake 2">
+                <div class="card-body">
+                    <b>
+                        <center>
+                    <h5 class="card-title">TCS CT 013</h5>
+                    <p class="card-text">Preparation days:1</p>
+                    <p>Pokimon</p>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                    </center>
+                    </b>
+                </div>
+            </div>
+        </div>
+        <!-- Product Card 3 -->
+        <div class="col-md-4 mb-4">
+            <div class="card cake-card">
+                <img src="img/toy15.jpg" class="card-img-top" alt="Cake 3">
+                <div class="card-body">
+                    <b>
+                        <center>
+                    <h5 class="card-title">TCS CT 014</h5>
+                    <p class="card-text">Preparation days:1</p>
+                    <p>lolipop cake</p>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                    </center>
+                    </b>
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+
+
+
+
+
+
+
+    <footer>
+        <div class="full-image">
+            <!-- <img src="https://www.thecakeshop.co.in/assets/images/image01/htop21.png" alt="" /> -->
+        </div>
+        <div class="footer-nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2 col-md-2 col-sm-2">
+                        <div class="logo">
+     <img src="https://www.thecakeshop.co.in/assets/images/image01\Cake-shop-logo-2.png" alt="" width="300" height="200"/>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2">
+                        <div class="important">
+                            <h5>Important</h5>
+                            <ul>
+                                <li><a href="https://www.thecakeshop.co.in/refund_policy">Refund Policy</a></li>
+                                <li><a href="https://www.thecakeshop.co.in/contact">Contact Us</a></li>
+                                <li><a href="https://www.thecakeshop.co.in/Privacy_policy">Privacy Policy</a></li>
+                                <ul>
+                              <li><a href="https://www.thecakeshop.co.in/terms_of_services">Terms of Services</a></li>
+                            </ul>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 nopad">
+                        <div class="safe-payments">
+                            <h5>Safe Payments</h5>
+                            <ul>
+                                <li>
+                                    <img src="https://www.thecakeshop.co.in/assets/images/image01/icon-secure1.png" alt="" />
+                                  <a href="https://www.thecakeshop.co.in/secure_connection">Secure Connection</a>  
+                                </li>
+                                <li>
+                                    <img src="https://www.thecakeshop.co.in/assets/images/image01/mastercard.png" alt="" />
+                                    <a href="https://www.thecakeshop.co.in/master_card">MasterCard</a> 
+                                </li>
+                                <li>
+                                    <img src="https://www.thecakeshop.co.in/assets/images/image01/visa.png" alt="" />
+                                    <a href="https://www.thecakeshop.co.in/visa">VISA</a>
+                                </li>
+                                <li>
+                                    <img src="https://www.thecakeshop.co.in/assets/images/image01/cart1.png" alt="" />
+                                   <a href="https://www.thecakeshop.co.in/cash_on_delivery"> Cash on Delivery</a>
+                                </li>
+                                <!-- <li></li> -->
+                                <img src="https://www.thecakeshop.co.in/assets/images/image01/paypal.png" alt="" />
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- <div class="col-lg-1 col-md-1 col-sm-1"></div> -->
+                    <div class="col-lg-2 col-md-2 col-sm-2">
+                        <div class="get-in-touch">
+                            <!-- <h5>Our Service</h5> -->
+                            <!--<h5> Periyar Nagar</h5>-->
+                            <!--<ul>-->
+                                <!--<li>-->
+                                <!--103, Periyar Nagar <br />-->
+                                <!--Erode.-->
+                                    
+                                <!--</li>-->
+    
+                                <!--<li>-->
+                                    <!--<a href="tel:0424 4030204"><i class="fa fa-phone" aria-hidden="true"></i> 0424 4030204</a>-->
+                                <!--</li>-->
+                                <!-- <li>
+                                    <a href=""><i class="fa fa-phone" aria-hidden="true"></i> +91 97904 01259</a>
+                                </li> -->
+                            <!--</ul>-->
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2">
+                        <div class="get-in-touch">
+                        <!--<h5>Kollampalayam</h5>-->
+                            <!--<ul>-->
+                                <!--<li>-->
+                                <!--A K Square 95/1 Gandhiji Street, <br />-->
+                                <!--Karur Bypass Rd, Kollampalayam, <br />-->
+                                <!--Erode.-->
+                                <!--</li>-->
+    
+                                <!--<li>-->
+                                    <!--<a href="tel:0424 2902457"><i class="fa fa-phone" aria-hidden="true"></i> 0424 2902457</a>-->
+                                <!--</li>-->
+                                <!-- <li>
+                                    <a href=""><i class="fa fa-phone" aria-hidden="true"></i> +91 97904 01259</a>
+                                </li> -->
+                            <!--</ul>-->
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2">
+                        <div class="get-in-touch">
+                        <!--<h5> Perundurai Road</h5>-->
+                            <!--<ul>-->
+                                <!--<li>-->
+                                <!--G T Square, 41, Perundurai Rd, <br />-->
+                                <!--Erode.-->
+                                <!--</li>-->
+    
+                                <!--<li>-->
+                                    <!--<a href="tel:0424 3555607"><i class="fa fa-phone" aria-hidden="true"></i> 0424 3555607</a>-->
+                                <!--</li>-->
+                                <!-- <li>
+                                    <a href=""><i class="fa fa-phone" aria-hidden="true"></i> +91 97904 01259</a>
+                                </li> -->
+                            <!--</ul>-->
+                        </div>
+                    </div>
+                </div>
+                <div class="copy-right">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <h6 class="block-1">Copyright @ 2022 The Cake Shop . All Right Reserved.</h6>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <h6 class="block-2">Designed by <a href=""> Byzero Technologies</a> </h6>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
